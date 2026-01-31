@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Database path
-DB_PATH = Path(__file__).parent.parent.parent / "data" / "recipes.db"
+DB_PATH = Path(__file__).parent.parent / "whatcanicook.db"
 DATABASE_URL = f"sqlite:///{DB_PATH}"
 
 # Create base class for models
